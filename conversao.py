@@ -28,4 +28,10 @@ idade = "28"
 print(float(preco))
 print(int(idade))
 
+IDADE = bool(idade)
+#bool verdade
 #não consegue converter streing para float quando não existir numero
+#perguntar o tipo type
+print(type(IDADE))
+
+#// retorna sempre o inteiro
