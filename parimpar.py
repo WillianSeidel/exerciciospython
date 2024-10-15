@@ -1,11 +1,6 @@
 numero = int(input())
 
-divisao = (numero // 2)
-
-print(divisao)
-    #se a divisão restar 0 = par
-    # 
-
-function 
-
-#fazer habilitação pode ou não dirigir
+if numero % 2 == 0:
+    print(str(f"numero {numero} é Par"))
+else:
+    print(str(f"numero {numero} é Ímpar"))
